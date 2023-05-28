@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   float a, x;
+   cout<<"Введите значение а: ";
+   cin>>a;
+
+   // вычисление значения функции
+   x=12*pow(a,2)+7*a-16;
+
+cout<<"Значение х="<<x<<endl;
+
+
+return(0);
+}
