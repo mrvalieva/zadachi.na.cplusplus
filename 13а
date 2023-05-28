@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x, y;
+    cout << "Введите значение x: ";
+    cin >> x;
+    
+    y = 7 * pow(x, 2) - 3 * x + 6; // вычисление значения функции
+    
+    cout << "Значение функции у = " << y << endl;
+    
+   return 0; 
+}
